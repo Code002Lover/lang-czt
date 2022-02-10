@@ -1,0 +1,17 @@
+{
+  "name": "language-czt",
+  "version": "0.0.0",
+  "description": "adds codezt highlighting to atom",
+  "keywords": [
+    "language",
+    "grammar",
+    "codezt",
+    "czt",
+    "codezerotwo"
+  ],
+  "repository": "https://github.com/Mystikfluu/lang-czt",
+  "license": "all rights reserved",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

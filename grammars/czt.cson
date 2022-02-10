@@ -1,0 +1,26 @@
+# If this is your first time writing a language grammar, check out:
+#   - https://flight-manual.atom.io/hacking-atom/sections/creating-a-grammar/
+
+'scopeName': 'source.czt'
+'name': 'CZT'
+'fileTypes': [
+  'czt'
+]
+'patterns': [
+  {
+    'match': '//.*'
+    'name': 'comment'
+  },
+  {
+    'match': '((?<![0-9a-zA-Z])(~=|tostring|++|===|debug|sqrt|over|change-type|pow|2dup|>>|on-stack|drop|undefined|clear|{}|if|add|!|==|%|print|--|call|nil|+|*|-|/|true|write|set|div|~==|import|httpget|&&|=|<|>|ifl|gt|type|<<|func|null|dup|/*|unsafe_drop|end|false|lsf|require|lt|include|not|!=|rsf|repeat|rot|switch|and|or|read|!!|nothing|#std|[]|unsafe_dup|!==)( |\n|\t|;))'
+    'name': 'keyword.general'
+  },
+  {
+    'match': '".*"'
+    'name': 'string'
+  },
+  {
+    'match': "'.*'"
+    'name': 'string'
+  },
+]
