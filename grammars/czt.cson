@@ -12,7 +12,7 @@
     'name': 'comment'
   },
   {
-    'match': '((?<![0-9a-zA-Z])(~=|tostring|++|===|debug|sqrt|over|change-type|pow|2dup|>>|on-stack|drop|undefined|clear|{}|if|add|!|==|%|print|--|call|nil|+|*|-|/|true|write|set|div|~==|import|httpget|&&|=|<|>|ifl|gt|type|<<|func|null|dup|/*|unsafe_drop|end|false|lsf|require|lt|include|not|!=|rsf|repeat|rot|switch|and|or|read|!!|nothing|#std|[]|unsafe_dup|!==)( |\n|\t|;))'
+    'match': '((?<![0-9a-zA-Z])(tostring|debug|sqrt|over|change-type|pow|2dup|on-stack|drop|undefined|clear|if|add|print|call|nil|true|write|set|div|import|httpget|ifl|gt|type|func|null|dup|unsafe_drop|end|false|lsf|require|lt|include|not|rsf|repeat|rot|switch|and|or|read|nothing|#std|unsafe_dup)( |\n|\t|;))'
     'name': 'keyword.general'
   },
   {
