@@ -12,7 +12,7 @@
     'name': 'comment'
   },
   {
-    'match': '((?<![0-9a-zA-Z])(exit|tostring|debug|sqrt|over|change-type|fourloop|2dup|on-stack|drop|undefined|clear|if|loadstring|add|print|call|nil|true|write|set|pow|div|httpget|type|null|error|import|ifl|require|gt|eval|include|func|repeat|false|unsafe_drop|remove|end|or|lsf|runstring|lt|dup|not|switch|rsf|rot|executestring|and|read|nothing|#std|unsafe_dup)( |\n|\t|;))'
+    'match': '((?<![0-9a-zA-Z])(exit|return|write_file|read_line|open_file|tostring|debug|sqrt|over|change-type|fourloop|2dup|on-stack|drop|undefined|clear|if|loadstring|add|print|call|nil|true|write|set|pow|div|httpget|type|null|error|import|ifl|require|gt|eval|include|func|repeat|false|unsafe_drop|remove|end|or|lsf|runstring|lt|dup|not|switch|rsf|rot|executestring|and|read|nothing|#std|unsafe_dup)( |\n|\t|;))'
     'name': 'keyword.general'
   },
   {
